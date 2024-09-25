@@ -176,3 +176,25 @@ main p {
 .photo-item img:hover {
     transform: scale(1.1); /* Zoom in on hover */
 }
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .hero-content a {
+        display: block; /* Forces buttons to be stacked vertically */
+        width: 80%; /* Ensure buttons don't take up full width */
+        margin: 10px auto; /* Adds margin around buttons and centers them */
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .hero-content p {
+        font-size: 18px; /* Adjust paragraph size for smaller screens */
+    }
+
+    .cta-btn {
+        font-size: 16px; /* Adjust button text size for smaller screens */
+    }
+}
+
