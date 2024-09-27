@@ -198,3 +198,35 @@ main p {
     }
 }
 
+/* Testimonials Section */
+.testimonials {
+    background-color: #ecf0f1; /* Light background */
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+blockquote {
+    font-style: italic;
+    color: #34495e;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #3498db; /* Blue left border */
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
